@@ -15,4 +15,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           filename: .github/check-template.md
-          assignees: ${{ payload.sender.login }}
+          assignees: ${{ tools.context.actor }}
