@@ -7,4 +7,4 @@ assignees: risacan
 * [ ] 2つめ
 * [ ] 3つめ
 
-{{ payload.pull_request.url }}
+{{ payload.pull_request.html_url }}
