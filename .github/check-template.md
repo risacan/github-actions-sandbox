@@ -1,10 +1,10 @@
 ---
 title: 動作確認をしよう！
-asignees: {{ payload.sender.login }}
+assignees: {{ payload.sender.login }}
 ---
 
 * [ ] 1つめ
 * [ ] 2つめ
 * [ ] 3つめ
 
-{{ payload.repository.pulls_url }}
+{{ payload.pull_request_url }}
