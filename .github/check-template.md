@@ -1,7 +1,6 @@
 ---
 title: 動作確認をしよう！
-assignees:
-  - {{ payload.pull_request.user.login }}
+assignees: [{{ payload.pull_request.user.login }}]
 ---
 
 * [ ] 1つめ
