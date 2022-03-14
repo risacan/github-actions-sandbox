@@ -5,3 +5,5 @@ title: 動作確認をしよう！
 * [ ] 1つめ
 * [ ] 2つめ
 * [ ] 3つめ
+
+{{ payload.sender.login }}
