@@ -1,6 +1,6 @@
 ---
 title: 動作確認をしよう！
-assignees: {{ payload.sender.login }}
+assignees: risacan
 ---
 
 * [ ] 1つめ
