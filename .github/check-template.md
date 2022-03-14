@@ -8,3 +8,4 @@ assignee: {{ payload.pull_request.user.login }}
 * [ ] 3つめ
 
 {{ payload.pull_request.html_url }}
+{{ payload.pull_request.user.login }}
